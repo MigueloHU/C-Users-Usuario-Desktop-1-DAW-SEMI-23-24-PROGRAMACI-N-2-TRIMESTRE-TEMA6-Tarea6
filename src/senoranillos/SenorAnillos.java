@@ -70,6 +70,7 @@ public static void main(String[] args) {
 Lista heroes = new Lista(5);
 Lista bestias = new Lista(7);
     System.out.println("Comienza la batalla!");
+     System.out.println("Prepárate!!")// <--Cambio en remoto
 // Ejercito de Heroes
 heroes.insertarAlFinal(new Hombre("Boromir", 300, 20));
 heroes.insertarAlFinal(new Hombre("Aragor", 370, 35));
